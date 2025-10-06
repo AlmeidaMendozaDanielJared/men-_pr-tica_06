@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> - Almeida Mendoza</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    
+    <h1>Práctica fotografica y responsiva</h1>
+    <p>Estilos: Horizontal, vertifal y tipo abanico</p>
+
+
+    <header class="site-header">
+        <div class="container nav">
+            <div class="brand"> Juegos y Galería </div>
+            <button class="menu-toggle">☰</button>
+            <nav class="nav-links">
+                <a href="">Inicio</a>
+                <a href="">Galería clásica</a>
+                <a href="">Galería vertical</a>
+                <a href="">Galería abanico</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="galeria-clasica" class="section">
+        <div class="container">
+            <h2>Galería clásica(grid fluido)</h2>
+            <div class="grid galeria">
+                <img src="assets/images/j1.jpg" alt="">
+                <img src="assets/images/j2.jpg" alt="">
+                <img src="assets/images/j3.jpg" alt="">
+                <img src="assets/fotoevi/1.PNG" alt="">
+                <img src="assets/fotoevi/2.PNG" alt="">
+                <img src="assets/fotoevi/3.PNG" alt="">
+                <img src="assets/fotoevi/4.PNG" alt="">
+                <img src="assets/fotoevi/5.PNG" alt="">
+                <img src="assets/fotoevi/6.PNG" alt="">
+                <img src="assets/fotoevi/7.PNG" alt="">
+                <img src="assets/fotoevi/8.PNG" alt="">
+                <img src="assets/fotoevi/9.PNG" alt="">
+                <img src="assets/fotoevi/10.PNG" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="galeria-vertical" class="section alt">
+        <h2>Galería vertical (scroll suave)</h2>
+        <div class="vertical galeria">
+            <img src="assets/images/j3.jpg" alt="">
+            <img src="assets/images/j4.jpg" alt="">
+            <img src="assets/images/j5.jpeg" alt="">
+         </div>
+    </section>
+
+    <section id="galeria-abanico" class="section">
+        <div class="abanico galeria">
+            <figure class="card"><img src="assets/images/j1.jpg" alt=""><figcaption>Abanico 1</figcaption></figure>
+            <figure class="card"><img src="assets/images/j2.jpg" alt=""><figcaption>Abanico 2</figcaption></figure>
+        </div>
+    </section>
+
+    <div id="visor" class="visor">
+        <button id="closeVisro">×</button>
+        <button id="prevVisor">‹</button>
+        <img id="visorImg" alt="Imagen ampliada">
+        <button id="nextVisor">›</button>
+    </div>
+
+
+    <footer class="site-footer">
+        <p><span id="year"> © Prática fotografica Almeida Mendoza Jared</span></p>
+    </footer>
+
+</body>
+</html>
